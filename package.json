@@ -4,5 +4,19 @@
   "description": "tech test for enyosolutions",
   "main": "index.js",
   "repository": "https://github.com/Ribeiro-Tiago/enyosolutions-test.git",
-  "author": "Tiago Ribeiro <t.ribeiro@sweepatic.com>"
+  "author": "Tiago Ribeiro <t.ribeiro@sweepatic.com>",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "rss-parser": "^3.12.0",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
