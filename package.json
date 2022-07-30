@@ -1,0 +1,8 @@
+{
+  "name": "enyosolutions",
+  "version": "1.0.0",
+  "description": "tech test for enyosolutions",
+  "main": "index.js",
+  "repository": "https://github.com/Ribeiro-Tiago/enyosolutions-test.git",
+  "author": "Tiago Ribeiro <t.ribeiro@sweepatic.com>"
+}
